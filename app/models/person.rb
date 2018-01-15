@@ -8,6 +8,6 @@ class Person
     false
   end
   
-  attr_accessor :age
+  attr_accessor :name, :address, :city, :phone, :car, :patente, :chasis, :motor
   
 end

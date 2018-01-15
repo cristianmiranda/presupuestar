@@ -9,17 +9,76 @@
 
 	<body>
 		<div class="container">
+      
+      <img src="/images/fiat_logo.png" class="logo"/>
+      
 			<% flash.each do |key, value| %>
 				<div class="alert alert-<%= key %>"><%= value %></div>
 			<% end %>
 			<%= yield %>
 			<%= debug(params) if !Rails.env.development? %>
       
-      
-      <%= form_for @person, url: {action: "create"} do |f| %>
-        <%= f.number_field :age %>
-        <%= f.submit "Create" %>
-      <% end %>
+      <div class="main-form">
+        <%= form_for @person, url: {action: "create"}, :html => {:class => "form-horizontal center"} do |f| %>
+          <div class="form-group">
+            <%-# Nombre y Apellido -%>
+            <%= f.label :name, "Nombre y Apellido:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :name, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Domicilio -%>
+            <%= f.label :address, "Domicilio:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :address, class: "form-control" %>
+            </div>
+          </div>  
+          <div class="form-group">
+            <%-# Localidad -%>
+            <%= f.label :city, "Localidad:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :city, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Telefono -%>
+            <%= f.label :phone, "Telefono:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :phone, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Auto -%>
+            <%= f.label :car, "Vehículo Marca/Modelo:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :car, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Patente -%>
+            <%= f.label :patente, "Patente:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :patente, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Chasis -%>
+            <%= f.label :chasis, "Chasis:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :chasis, class: "form-control" %>
+            </div>
+          </div>
+          <div class="form-group">
+            <%-# Motor -%>
+            <%= f.label :motor, "Motor:", class: "col-md-4 control-label" %>
+            <div class="col-md-8">
+              <%= f.text_field :motor, class: "form-control" %>
+            </div>
+          </div>
+          <%= f.submit "Presupuestar", class: "btn btn-default btn-primary right" %>
+        <% end %>
+      </div>
       
 		</div>
 
