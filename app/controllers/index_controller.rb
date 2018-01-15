@@ -3,11 +3,17 @@ class IndexController < ActionController::Base
   
   def index
     @person = Person.new
-    @person.age = 10
-    flash[:success] = @person.age
   end
   
   def create
-    flash[:success] = 'Success!'
+    @person = Person.new(person_params)
+    flash[:success] = @person.age
+    render :index
   end
+  
+  private
+    def person_params
+      params.require(:person).permit(:age)
+    end
+  
 end
