@@ -5,6 +5,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 	</head>
 
 	<body>
@@ -82,8 +83,8 @@
           <hr/>
           <div class="row">
             <div class="col-md-6 form-group">
-              <%-# Precios -%>
-              <%= f.label :file, "Precios:", class: "col-md-4 control-label" %>
+              <%-# Repuestos -%>
+              <%= f.label :file, "Repuestos:", class: "col-md-4 control-label" %>
               <div class="col-md-8">
                 <%= f.file_field :file, class: "btn btn-info" %>
               </div>
@@ -103,13 +104,6 @@
               <%= f.label :pintura, "Pintura:", class: "col-md-4 control-label" %>
               <div class="col-md-8">
                 <%= f.text_field :pintura, class: "form-control" %>
-              </div>
-            </div>
-            <div class="col-md-6 form-group">
-              <%-# Repuestos -%>
-              <%= f.label :respuestos, "Repuestos:", class: "col-md-4 control-label" %>
-              <div class="col-md-8">
-                <%= f.text_field :repuestos, class: "form-control" %>
               </div>
             </div>
             <div class="col-md-6 form-group">

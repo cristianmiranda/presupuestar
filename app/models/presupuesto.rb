@@ -19,7 +19,6 @@ class Presupuesto
                 :file, 
                 :chapa, 
                 :pintura, 
-                :repuestos, 
                 :mecanica, 
                 :electricidad, 
                 :carroceria, 
