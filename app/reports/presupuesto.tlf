@@ -129,15 +129,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 167.1,
-      "y": 176,
-      "width": 132,
-      "height": 20.5,
+      "x": 165.7,
+      "y": 181.7,
+      "width": 396.6,
+      "height": 12.5,
       "style": {
         "font-family": [
           "Helvetica"
         ],
-        "font-size": 18,
+        "font-size": 11,
         "color": "#000000",
         "text-align": "left",
         "vertical-align": "top",

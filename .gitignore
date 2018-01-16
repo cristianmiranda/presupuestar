@@ -17,6 +17,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+*.pdf
 
 /node_modules
 /yarn-error.log
