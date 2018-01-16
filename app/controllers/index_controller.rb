@@ -2,12 +2,12 @@ class IndexController < ActionController::Base
   protect_from_forgery with: :exception
   
   def index
-    @person = Person.new
+    @presupuesto = Presupuesto.new
   end
   
   def create
-    @person = Person.new(person_params)
-    # flash[:success] = @person.name
+    @presupuesto = Presupuesto.new(presupuesto_params)
+    # flash[:success] = @presupuesto.name
     report = Thinreports::Report.new layout: File.join(Rails.root, 'app', 'reports', 'presupuesto.tlf')
     report.start_new_page do
       item(:date).value(Time.now.strftime("%d/%m/%Y"))
@@ -17,8 +17,8 @@ class IndexController < ActionController::Base
   end
   
   private
-    def person_params
-      params.require(:person).permit(:name, :address, :city, :phone, :car, :patente, :chasis, :motor)
+    def presupuesto_params
+      params.require(:presupuesto).permit(:name, :address, :city, :phone, :car, :patente, :chasis, :motor)
     end
     
     def download_report(report)

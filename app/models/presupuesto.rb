@@ -1,4 +1,4 @@
-class Person
+class Presupuesto
   extend ActiveModel::Naming
   include ActiveModel::Model
   include ActiveModel::Conversion
