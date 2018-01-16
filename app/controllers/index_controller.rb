@@ -58,7 +58,7 @@ class IndexController < ActionController::Base
         $total_repuestos = xls.cell($i, 5).tr('$','').tr(' ','').to_f
       end
 
-      item(:total_repuestos).value($total_repuestos)
+      item(:total_repuestos).value("$ " + $total_repuestos.to_s)
       $total_repuestos *= 1.21
       
       $chapa = $presupuesto.chapa == nil ? 0 : $presupuesto.chapa.to_f

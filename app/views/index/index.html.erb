@@ -17,7 +17,7 @@
 				<div class="alert alert-<%= key %>"><%= value %></div>
 			<% end %>
 			<%= yield %>
-			<%= debug(params) if !Rails.env.development? %>
+			<%#= debug(params) if !Rails.env.development? %>
       
       <div class="main-form">
         <%= form_for @presupuesto, multipart: true, url: {action: "create"}, :html => {:class => "form-horizontal center"} do |f| %>

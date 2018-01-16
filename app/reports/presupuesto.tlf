@@ -238,7 +238,7 @@
       "type": "image",
       "display": true,
       "description": "",
-      "x": 327.2,
+      "x": 314,
       "y": 766.3,
       "width": 98.3,
       "height": 55.5,
@@ -252,7 +252,7 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 436.7,
+      "x": 423.5,
       "y": 767.6,
       "width": 138.5,
       "height": 12.9,
@@ -278,15 +278,15 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 436.1,
+      "x": 422.9,
       "y": 782.4,
       "width": 129.4,
-      "height": 39.4,
+      "height": 46,
       "style": {
         "font-family": [
           "Helvetica"
         ],
-        "font-size": 11,
+        "font-size": 10,
         "color": "#000000",
         "text-align": "left",
         "vertical-align": "top",
@@ -300,7 +300,8 @@
       "texts": [
         "DANIEL MIRANDA",
         "Cel.: 15 6751-8910",
-        "Tel.: 4648-1771 (INT: 155)"
+        "Tel.: 4648-1771 (INT: 155)",
+        ""
       ]
     },
     {
