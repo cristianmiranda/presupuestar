@@ -71,10 +71,9 @@ class IndexController < ActionController::Base
         
       end
       
-      $total_repuestos = xls.cell($i, 5).tr('$','').tr(' ','').to_f.round(2)
+      $total_repuestos = ((xls.cell($i, 5).tr('$','').tr(' ','').to_f) * 1.21).round(2)
     end
 
-    $total_repuestos *= 1.21
     page = report.pages[0]
     page.item(:chapa).value("$ " + $chapa.to_s)
     page.item(:pintura).value("$ " + $pintura.to_s)
