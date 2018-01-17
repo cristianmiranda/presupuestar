@@ -255,7 +255,7 @@
       "x": 423.5,
       "y": 767.6,
       "width": 138.5,
-      "height": 12.9,
+      "height": 13,
       "style": {
         "font-family": [
           "Helvetica"
@@ -281,7 +281,7 @@
       "x": 422.9,
       "y": 782.4,
       "width": 129.4,
-      "height": 46,
+      "height": 48.8,
       "style": {
         "font-family": [
           "Helvetica"
@@ -758,97 +758,8 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 50.8,
-      "y": 327.8,
-      "width": 225.9,
-      "height": 17,
-      "style": {
-        "font-family": [
-          "Helvetica"
-        ],
-        "font-size": 11,
-        "color": "#000000",
-        "text-align": "left",
-        "vertical-align": "top",
-        "line-height": "",
-        "line-height-ratio": "",
-        "letter-spacing": "",
-        "font-style": [
-          "bold",
-          "underline"
-        ]
-      },
-      "texts": [
-        "REPUESTOS A UTILIZAR"
-      ]
-    },
-    {
-      "id": "",
-      "type": "text",
-      "display": true,
-      "description": "",
-      "x": 232.6,
-      "y": 580.2,
-      "width": 225.9,
-      "height": 28,
-      "style": {
-        "font-family": [
-          "Helvetica"
-        ],
-        "font-size": 10,
-        "color": "#000000",
-        "text-align": "right",
-        "vertical-align": "middle",
-        "line-height": "",
-        "line-height-ratio": "",
-        "letter-spacing": "",
-        "font-style": [
-          "bold"
-        ]
-      },
-      "texts": [
-        "TOTAL REPUESTOS:"
-      ]
-    },
-    {
-      "id": "total_repuestos",
-      "type": "text-block",
-      "display": true,
-      "description": "",
-      "x": 471,
-      "y": 589.8,
-      "width": 91.6,
-      "height": 11.5,
-      "style": {
-        "font-family": [
-          "Helvetica"
-        ],
-        "font-size": 10,
-        "color": "#000000",
-        "text-align": "left",
-        "vertical-align": "top",
-        "line-height": "",
-        "line-height-ratio": "",
-        "letter-spacing": "",
-        "font-style": [],
-        "overflow": "truncate",
-        "word-wrap": "break-word"
-      },
-      "reference-id": "",
-      "value": "",
-      "multiple-line": false,
-      "format": {
-        "base": "",
-        "type": ""
-      }
-    },
-    {
-      "id": "",
-      "type": "text",
-      "display": true,
-      "description": "",
       "x": 51.2,
-      "y": 613.6,
+      "y": 326.8,
       "width": 226.1,
       "height": 17,
       "style": {
@@ -876,17 +787,17 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 50.8,
-      "y": 733.8,
-      "width": 225.9,
-      "height": 15.5,
+      "x": 290.3,
+      "y": 446.9,
+      "width": 91.5,
+      "height": 16.1,
       "style": {
         "font-family": [
           "Helvetica"
         ],
-        "font-size": 12,
+        "font-size": 14,
         "color": "#000000",
-        "text-align": "right",
+        "text-align": "left",
         "vertical-align": "middle",
         "line-height": "",
         "line-height-ratio": "",
@@ -904,15 +815,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 290.3,
-      "y": 735.9,
-      "width": 271.9,
-      "height": 14,
+      "x": 344,
+      "y": 449.6,
+      "width": 218,
+      "height": 16.1,
       "style": {
         "font-family": [
           "Helvetica"
         ],
-        "font-size": 12,
+        "font-size": 14,
         "color": "#000000",
         "text-align": "left",
         "vertical-align": "top",
@@ -937,7 +848,7 @@
       "display": true,
       "description": "",
       "x": 50.8,
-      "y": 635.6,
+      "y": 348.8,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -965,7 +876,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 639.1,
+      "y": 352.3,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -997,7 +908,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 648.5,
+      "y": 361.7,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1025,7 +936,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 652,
+      "y": 365.2,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1057,7 +968,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 660.5,
+      "y": 373.7,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1076,7 +987,7 @@
         ]
       },
       "texts": [
-        "REPUESTOS:"
+        "REPUESTOS (CON IVA):"
       ]
     },
     {
@@ -1085,7 +996,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 664.5,
+      "y": 377.7,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1117,7 +1028,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 672.7,
+      "y": 385.9,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1145,7 +1056,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 676.8,
+      "y": 390,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1177,7 +1088,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 684.5,
+      "y": 397.7,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1205,7 +1116,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 688.6,
+      "y": 401.8,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1237,7 +1148,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 695.9,
+      "y": 409.1,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1265,7 +1176,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 700,
+      "y": 413.2,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1297,7 +1208,7 @@
       "display": true,
       "description": "",
       "x": 51.2,
-      "y": 707.5,
+      "y": 420.7,
       "width": 225.9,
       "height": 15.5,
       "style": {
@@ -1325,7 +1236,7 @@
       "display": true,
       "description": "",
       "x": 290.7,
-      "y": 712.7,
+      "y": 425.9,
       "width": 271.9,
       "height": 10.6,
       "style": {
@@ -1372,15 +1283,15 @@
       "display": true,
       "description": "",
       "x": 50.8,
-      "y": 349.4,
+      "y": 501.1,
       "width": 511.2,
-      "height": 236.2,
+      "height": 250.6,
       "header": {
         "enabled": true,
         "height": 19.4,
         "translate": {
           "x": -24.6,
-          "y": 0
+          "y": 151.7
         },
         "items": [
           {
@@ -1559,7 +1470,7 @@
         "height": 13.9,
         "translate": {
           "x": -24.6,
-          "y": 0.2
+          "y": 151.9
         },
         "items": [
           {
@@ -1729,7 +1640,7 @@
         "height": 0,
         "translate": {
           "x": -24.6,
-          "y": -5.1
+          "y": 146.6
         },
         "items": []
       },
@@ -1738,12 +1649,41 @@
         "height": 0,
         "translate": {
           "x": -24.6,
-          "y": -19.5
+          "y": 132.2
         },
         "items": []
       },
-      "content-height": 216.79999999999998,
+      "content-height": 231.2,
       "auto-page-break": true
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 50.2,
+      "y": 473.9,
+      "width": 225.9,
+      "height": 17,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 11,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [
+          "bold",
+          "underline"
+        ]
+      },
+      "texts": [
+        "REPUESTOS A UTILIZAR"
+      ]
     }
   ],
   "state": {

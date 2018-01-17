@@ -11,6 +11,10 @@
 	<body>
 		<div>
       
+			<div class="header">
+				<a href="https://github.com/cristianmiranda">Github - @cristianmiranda</a>
+			</div>
+			
       <img src="/images/fiat_logo.png" class="logo"/>
       
 			<% flash.each do |key, value| %>
@@ -137,8 +141,7 @@
           </div>
           <hr/>
           <div>
-            <%= f.submit "Presupuestar", class: "btn btn-default btn-primary right" %>
-            <button class="btn btn-default btn-warning right">Limpiar</button>
+            <%= f.submit "Presupuestar", class: "btn btn-default btn-primary right", data: { disable_with: false } %>
           </div>
         <% end %>
       </div>
