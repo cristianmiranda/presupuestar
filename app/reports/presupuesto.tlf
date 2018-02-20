@@ -1283,15 +1283,15 @@
       "display": true,
       "description": "",
       "x": 50.8,
-      "y": 501.1,
+      "y": 568.6,
       "width": 511.2,
-      "height": 250.6,
+      "height": 183.1,
       "header": {
         "enabled": true,
         "height": 19.4,
         "translate": {
           "x": -24.6,
-          "y": 151.7
+          "y": 219.2
         },
         "items": [
           {
@@ -1470,7 +1470,7 @@
         "height": 13.9,
         "translate": {
           "x": -24.6,
-          "y": 151.9
+          "y": 219.4
         },
         "items": [
           {
@@ -1640,7 +1640,7 @@
         "height": 0,
         "translate": {
           "x": -24.6,
-          "y": 146.6
+          "y": 214.1
         },
         "items": []
       },
@@ -1649,11 +1649,11 @@
         "height": 0,
         "translate": {
           "x": -24.6,
-          "y": 132.2
+          "y": 199.7
         },
         "items": []
       },
-      "content-height": 231.2,
+      "content-height": 163.7,
       "auto-page-break": true
     },
     {
@@ -1661,8 +1661,8 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 50.2,
-      "y": 473.9,
+      "x": 50.8,
+      "y": 551.8,
       "width": 225.9,
       "height": 17,
       "style": {
@@ -1684,6 +1684,67 @@
       "texts": [
         "REPUESTOS A UTILIZAR"
       ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 50.8,
+      "y": 474,
+      "width": 225.9,
+      "height": 17,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 11,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [
+          "bold",
+          "underline"
+        ]
+      },
+      "texts": [
+        "OBSERVACIONES"
+      ]
+    },
+    {
+      "id": "observaciones",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 50.8,
+      "y": 490.7,
+      "width": 511.2,
+      "height": 53.6,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 9,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
     }
   ],
   "state": {

@@ -22,6 +22,7 @@ class Presupuesto
                 :mecanica, 
                 :electricidad, 
                 :carroceria, 
-                :carga_aa
+                :carga_aa,
+                :observaciones
   
 end

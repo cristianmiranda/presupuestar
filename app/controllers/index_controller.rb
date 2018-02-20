@@ -28,6 +28,7 @@ class IndexController < ActionController::Base
     page.item(:patente).value($presupuesto.patente)
     page.item(:chasis).value($presupuesto.chasis)
     page.item(:motor).value($presupuesto.motor)
+    page.item(:observaciones).value($presupuesto.observaciones)
     
     $chapa = $presupuesto.chapa == nil ? 0 : $presupuesto.chapa.to_f.round(2)
     $pintura = $presupuesto.pintura == nil ? 0 : $presupuesto.pintura.to_f.round(2)
@@ -103,7 +104,8 @@ class IndexController < ActionController::Base
                                           :mecanica, 
                                           :electricidad, 
                                           :carroceria, 
-                                          :carga_aa)
+                                          :carga_aa,
+                                          :observaciones)
     end
     
     def download_report(report, pdf_name)
