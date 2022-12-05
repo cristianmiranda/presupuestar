@@ -1,12 +1,24 @@
 # FIAT - Presupuesto de Chapa y Pintura
 
-```
-bundle install
-```
+## Run locally
 
-```
+```bash
+# Install dependencies
+bundle install
+
+# Run rails server
 rails server
 ```
+
+## Deploy to fly.io
+
+Dashboard: https://fly.io/apps/presupuestar
+
+```bsah
+fly deploy
+```
+
+![fly.io](https://i.imgur.com/9y51Pt5.png)
 
 ---
 
