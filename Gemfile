@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '7.0.4'
+gem 'rails', '7.0.4.1'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '1.3.11'
 # Use Puma as the app server
@@ -69,7 +69,7 @@ gem 'ttfunk', '1.7.0'
 
 gem 'autoprefixer-rails', '10.4.7.0'
 
-gem 'actionpack', '7.0.4'
+gem 'actionpack', '7.0.4.1'
 
 gem 'sprockets-rails'
 
