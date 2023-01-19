@@ -96,7 +96,7 @@ GEM
     erubi (1.11.0)
     execjs (2.8.1)
     ffi (1.15.5)
-    globalid (1.0.0)
+    globalid (1.0.1)
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -118,7 +118,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.16.3)
+    minitest (5.17.0)
     net-imap (0.3.1)
       net-protocol
     net-pop (0.1.2)
@@ -215,8 +215,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -256,9 +254,7 @@ DEPENDENCIES
   ttfunk (= 1.7.0)
   turbolinks
   tzinfo-data
-  uglifier
   web-console (>= 3.3.0)
-  zeitwerk (= 2.5.0)
 
 BUNDLED WITH
    2.3.23
